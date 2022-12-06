@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-STATICFILES_DIRS = ['F:/proyectos/proyecto-practica/app/static']
+STATICFILES_DIRS = ['F:/proyectos/proyecto-practica-juegos/static']
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    # 'django.contrib.staticfiles',
     'app',
     'colorfield',
     'crispy_forms',
@@ -138,5 +138,3 @@ USE_TZ = True
 
 STATIC_ROOT = 'static/'
 STATIC_URL = 'static/'
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
